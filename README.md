@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" width="120" />
+  <img src="screenshots/TOP_CI_INTEL.png" width="280" />
 </p>
 
 # DataIntel AI Platform
@@ -26,6 +26,10 @@ Traditional investment firms rely on data engineers and SQL analysts as middleme
 No SQL knowledge. No Jupyter notebooks. No waiting for the data team. Just ask.
 
 **Always-On AI Agent** — The **AskCI** floating button (bottom-right corner, with the capybara mascot icon) gives instant access to the AI agent from anywhere in the platform. One click opens the conversational interface — ask a question, get an answer, without ever leaving your current view. Visible on every page.
+
+<p align="center">
+  <img src="screenshots/ASK_CI.png" width="180" />
+</p>
 
 ---
 
