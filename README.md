@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="screenshots/TOP_CI_INTEL.png" width="280" />
+  <img src="icon.png" width="120" />
 </p>
 
-# DataIntel AI Platform
+# DataIntel AI Platform &nbsp; <img src="screenshots/TOP_CI_INTEL.png" height="40" /> &nbsp; <img src="screenshots/ASK_CI.png" height="35" />
 
 **Enterprise-Grade AI Data Intelligence Agent for Investment Management**
 
