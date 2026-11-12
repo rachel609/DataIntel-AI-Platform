@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.png" width="120" />
+</p>
+
 # DataIntel AI Platform
 
 **Enterprise-Grade AI Data Intelligence Agent for Investment Management**
