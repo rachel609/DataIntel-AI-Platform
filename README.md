@@ -21,13 +21,17 @@ Traditional investment firms rely on data engineers and SQL analysts as middleme
 
 No SQL knowledge. No Jupyter notebooks. No waiting for the data team. Just ask.
 
+**Always-On AI Agent** — The **AskCI** floating button (bottom-right corner, with the capybara mascot icon) gives instant access to the AI agent from anywhere in the platform. One click opens the conversational interface — ask a question, get an answer, without ever leaving your current view. Visible on every page.
+
 ---
 
 ## Data Pipeline Architecture
 
 The ReAct Agent has full access to query any layer of this enterprise data pipeline:
 
-![Data Pipeline Architecture](screenshots/00_data_pipeline_architecture.png)
+<p align="center">
+  <img src="screenshots/00_data_pipeline_architecture.png" width="100%" />
+</p>
 
 The agent queries the **Curated Layer** (business-ready tables) via SQL, pulling from funds, clients, transactions, holdings, and benchmarks — all fed by upstream ETL pipelines from Trading, CRM, Portfolio, and Market data sources.
 
@@ -39,7 +43,9 @@ The agent queries the **Curated Layer** (business-ready tables) via SQL, pulling
 
 The main dashboard surfaces KPIs, quality scores, anomaly alerts, data lineage, and governance metadata in a single view. No clicking through reports — everything critical is visible immediately.
 
-![Overview Dashboard](screenshots/01_overview.png)
+<p align="center">
+  <img src="screenshots/01_overview.png" width="100%" />
+</p>
 
 ---
 
@@ -49,7 +55,9 @@ The core of the platform. The **ReAct Agent** (Reasoning and Acting) follows a t
 
 **Not a chatbot.** This is a full analytical agent that understands fund structures, client relationships, transaction flows, and benchmark comparisons. It routes questions to the right data source, joins across tables, and formats results for business consumption. Powered by LangChain + Google Gemini with a local fallback engine for zero-downtime reliability.
 
-![AI Data Query](screenshots/02_data_query.png)
+<p align="center">
+  <img src="screenshots/02_data_query.png" width="100%" />
+</p>
 
 ---
 
@@ -64,7 +72,9 @@ Continuous 4-dimension quality scoring across every table in the warehouse:
 
 Each table gets a composite score (0–100) with drill-down by dimension. Scores below threshold trigger automated alerts.
 
-![Data Quality](screenshots/03_data_quality.png)
+<p align="center">
+  <img src="screenshots/03_data_quality.png" width="100%" />
+</p>
 
 ---
 
@@ -77,7 +87,9 @@ End-to-end pipeline tracing from source systems to curated tables. Interactive f
 - Portfolio Engine → S3 → Lambda → curated.holdings
 - Market Feed → Lambda → curated.benchmarks
 
-![Data Lineage](screenshots/04_data_lineage.png)
+<p align="center">
+  <img src="screenshots/04_data_lineage.png" width="100%" />
+</p>
 
 ---
 
@@ -85,7 +97,9 @@ End-to-end pipeline tracing from source systems to curated tables. Interactive f
 
 Enterprise metadata management — PII detection, PIPEDA/SOX compliance tracking, access policy classification, and clear team ownership for every data asset.
 
-![Governance](screenshots/05_governance.png)
+<p align="center">
+  <img src="screenshots/05_governance.png" width="100%" />
+</p>
 
 ---
 
@@ -93,7 +107,9 @@ Enterprise metadata management — PII detection, PIPEDA/SOX compliance tracking
 
 Anomaly detection engine with severity-based alerting (Critical / Warning / Info), affected row counts, status tracking (Open → Acknowledged → Resolved), and historical trend analysis.
 
-![Alerts](screenshots/06_alerts.png)
+<p align="center">
+  <img src="screenshots/06_alerts.png" width="100%" />
+</p>
 
 ---
 
@@ -101,7 +117,9 @@ Anomaly detection engine with severity-based alerting (Critical / Warning / Info
 
 Full technical architecture visualization — from data sources through ingestion, storage, ETL, the intelligence layer, and the presentation layer.
 
-![Architecture](screenshots/07_architecture.png)
+<p align="center">
+  <img src="screenshots/07_architecture.png" width="100%" />
+</p>
 
 ---
 
@@ -111,25 +129,14 @@ Full technical architecture visualization — from data sources through ingestio
 
 Inspired by Bloomberg ASKB, BlackRock Aladdin, and Morgan Stanley AI — built to give every team member quant-level analytical power without the quant-level salary.
 
-#### Trend Analysis
-90-day NAV tracking with AI-detected momentum signals, volatility metrics, and mean-reversion alerts. The agent identifies regime changes and flags funds diverging from historical patterns.
+- **Trend Analysis** — 90-day NAV tracking with AI-detected momentum signals, volatility metrics, and mean-reversion alerts. Identifies regime changes and flags funds diverging from historical patterns.
+- **Performance Attribution** — Brinson-style return decomposition into allocation, selection, and currency effects. The AI generates written commentary — the same output a quant analyst would produce for a portfolio review.
+- **Anomaly Detection** — Statistical outlier identification across fund returns, transaction volumes, and data quality metrics. Z-score based with configurable sensitivity.
+- **Redemption Risk Scoring** — Client-level risk assessment combining portfolio concentration, recent activity, and behavioral signals. Flags high-risk clients before they redeem.
 
-![Trend Analysis](screenshots/08_ai_insights_trend.png)
-
-#### Performance Attribution
-Brinson-style return decomposition into allocation effect, selection effect, and currency impact. The AI generates written commentary explaining what drove performance — the same output a quant analyst would produce for a portfolio review.
-
-![Performance Attribution](screenshots/09_ai_insights_attribution.png)
-
-#### Anomaly Detection
-Statistical outlier identification across fund returns, transaction volumes, and data quality metrics. Z-score based detection with configurable sensitivity thresholds.
-
-![Anomaly Detection](screenshots/10_ai_insights_anomaly.png)
-
-#### Redemption Risk Scoring
-Client-level risk assessment combining portfolio concentration, recent activity patterns, and behavioral signals. Flags high-risk clients before they redeem — giving advisors time to intervene.
-
-![Redemption Risk](screenshots/11_ai_insights_redemption.png)
+<p align="center">
+  <img src="screenshots/08_ai_insights_trend.png" width="100%" />
+</p>
 
 ---
 
